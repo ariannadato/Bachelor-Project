@@ -1,1 +1,6 @@
-# Bachelor-Project
+# Bachelor-Project: Evaluation of AI-based Methods for Predicting Nanobody Specificity
+
+# Abstract
+Nanobodies are emerging as promising molecules for therapeutics and diagnostics, making identification of their protein targets necessary for advancing research. However, the absence of evolutionary data poses challenges in predicting nanobody-protein interaction with conventional MSA-based algorithms. The new AI software AlphaFold3 might offer the solution to this issue. We evaluated its performance on a database of known interaction pairs by generating complexes of all possible nanobody-target combinations. We found that an iPTM (interface Predicted Template Modelling) higher than 0.8 consistently corresponds to a true interaction pair. However, only 21.4% of true interactions were successfully identified. We further scored the complexes through different physics-based methods and trained a machine-learning model to detect patterns in the various acquired metrics and improve the prediction recall. This attempt was unsuccessful, demonstrating that low-scored models should be deemed failed predictions and not analysed further . Additionally, we observed that failed predictions often involve proteins with long disordered regions prompting that a reliable structure fold of both interacting molecules is necessary for accurate prediction.
+
+This repository contains notebooks used for data analysis and machine learning training.
